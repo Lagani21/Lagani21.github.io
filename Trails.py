@@ -35,8 +35,8 @@ fig = px.line(
 )
 
 # Save Plotly chart as an HTML file
-fig.write_html("docs/trends_plot.html")  # Save to GitHub Pages folder
-print("Interactive plot saved as 'docs/trends_plot.html'")
+fig.write_html("trends_plot.html")  # Save to GitHub Pages folder
+print("Interactive plot saved as 'trends_plot.html'")
 
 
 # # Save the Plotly chart as an HTML file
