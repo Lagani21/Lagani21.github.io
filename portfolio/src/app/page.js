@@ -1,10 +1,13 @@
-import Image from "next/image";
+// src/app/page.js
+import ScrambleText from '../components/ScrambleText';
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center text-center p-10">
-      <h1 className="font-sans">Welcome to My Portfolio</h1>
-      <p className="text-lg mt-4 max-w-2xl">
+    <div className="container flex flex-col items-center justify-center min-h-screen text-center">
+      <h1 className="text-4xl font-bold">
+        <ScrambleText text="Welcome to My Portfolio" />
+      </h1>
+      <p className="mt-4">
         Hi, I'm Lagani Patel. I build intelligent systems and interactive applications.
       </p>
     </div>

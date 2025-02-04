@@ -1,4 +1,0 @@
-pytrends
-matplotlib
-pandas
-plotly
