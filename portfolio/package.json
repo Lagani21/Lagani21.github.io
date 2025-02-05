@@ -14,6 +14,8 @@
     "next": "15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-simple-typewriter": "^5.0.1",
+    "typewriter-effect": "^2.21.0",
     "use-scramble": "^2.2.15"
   },
   "devDependencies": {
