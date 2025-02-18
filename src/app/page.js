@@ -38,12 +38,12 @@ export default function Home() {
       {mounted && (
         <motion.section
           id="experience"
-          className="h-screen flex flex-col items-center justify-center text-black bg-[#7586A9] px-10 md:px-20 pb-20"
+          className="h-screen flex flex-col items-center justify-center text-black bg-[#173162] px-10 md:px-20 pb-20"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
         >
-          <h1 className="text-6xl font-extrabold text-black">Experience</h1>
+          <h1 className="text-6xl font-extrabold text-white">Experience</h1>
           <div className="relative w-full max-w-4xl mt-10">
             {/* Central Timeline Line */}
             <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-white h-[95%]"></div>
@@ -211,7 +211,7 @@ export default function Home() {
 
 
       {/* Education Section */}
-      <motion.section id="education" className="h-screen flex flex-col md:flex-row items-center justify-center bg-[#2C4678] px-10 md:px-20 pb-20"
+      <motion.section id="education" className="h-screen flex flex-col md:flex-row items-center justify-center bg-[#8194B8] px-10 md:px-20 pb-20"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -226,8 +226,8 @@ export default function Home() {
           />
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left md:pl-10">
-          <h1 className="text-5xl font-extrabold text-white">Education</h1>
-          <p className="text-xl mt-4 text-gray-300">
+          <h1 className="text-5xl font-extrabold text-black">Education</h1>
+          <p className="text-xl mt-4 text-black">
             I’m pursuing a Master of Computer Science at North Carolina State University, where I’ve been diving deep into Data Analytics, Data Science, Machine Learning, and Software Engineering. My undergraduate studies at Pandit Deendayal Energy University in Information and Communication Technology Engineering laid a strong foundation in Data Structures, Database Management Systems, and Operating Systems.
           </p>
         </div>
@@ -236,24 +236,24 @@ export default function Home() {
       {/* beyond code section */}
       <motion.section
         id="beyond code"
-        className="h-screen flex flex-col md:flex-row items-center justify-center bg-[#7586A9] px-6 md:px-16 pb-20"
+        className="h-screen flex flex-col md:flex-row items-center justify-center bg-[#E7EFFF] px-6 md:px-16 pb-20"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1.2 }}
       >
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h1 className="text-5xl font-extrabold text-white">Beyond Code</h1>
-          <p className="text-xl mt-4 text-gray-300">
+          <h1 className="text-5xl font-extrabold text-black">Beyond Code</h1>
+          <p className="text-xl mt-4 text-black">
             I’m a 23-year-old embracing both the struggles and successes on my journey through the world of data science.
           </p>
-          <p className="text-xl mt-4 text-gray-300">
+          <p className="text-xl mt-4 text-black">
             Tech is a big part of my life, but beyond coding, I find joy in many different things. I am a part-time event manager at our university's Student Union and have managed over 100 events, making sure everything runs smoothly.
           </p>
-          <p className="text-xl mt-4 text-gray-300">
+          <p className="text-xl mt-4 text-black">
             I like photography and enjoy learning about filmmaking, with <span className="font-semibold text-white">Mike Flanagan</span> being my recent favorite director.
           </p>
-          <p className="text-xl mt-4 text-gray-300">
+          <p className="text-xl mt-4 text-black">
             Cooking is another passion—I love trying new recipes and finding creative ways to meet my protein goals as a vegetarian. I also enjoy reading poetry and discovering new stories. Whether it’s planning an event, capturing a moment, or experimenting in the kitchen, I love exploring creativity in different ways.
           </p>
         </div>

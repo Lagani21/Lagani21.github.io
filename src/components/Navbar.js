@@ -43,13 +43,13 @@ export default function Navbar() {
   const getNavbarColor = () => {
     switch (activeSection) {
       case "experience":
-        return "bg-[#1A2A40]";
+        return "bg-[#173162]";
       case "education":
-        return "bg-[#2C4678]";
+        return "bg-[#8194B8]";
       case "about":
         return "bg-[#7586A9]";
       case "beyond code":
-        return "bg-[#C5CEE6]";
+        return "bg-[#E7EFFF]";
       default:
         return "bg-[#001F3F]";
     }
