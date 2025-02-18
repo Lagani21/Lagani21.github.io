@@ -48,6 +48,7 @@ export default function Home() {
             {/* Central Timeline Line */}
             <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-white h-[95%]"></div>
 
+
             {/* Experience Cards */}
             <div className="space-y-8">
               {/* 1. Small Card with 2025 on Left */}
@@ -78,11 +79,9 @@ export default function Home() {
                   <p className="text-gray-600 text-sm">Oct 2024 - Present</p>
                   <div className="details opacity-0 max-h-0 overflow-y-auto transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:max-h-[400px] mt-4">
                     <p className="text-gray-500 text-sm">
-                      I’m currently working as a Data Scientist at the NC Museum of Natural Sciences, where we’re developing AI-driven solutions as part of the Snapshot USA project to improve wildlife monitoring across the United States. Our goal is to create an automated system capable of processing tens of thousands of camera trap images collected from diverse environments nationwide.
+                      we’re developing AI-driven solutions to improve wildlife monitoring across the United States. By integrating AI into our workflow, we’re reducing the need for manual processing and improving classification across large datasets. One of the key aspects of our work involves depth estimation models for calibrated data, processing over 100,000+ camera trap images from diverse ecosystems.
 
-                      We use libraries like TensorFlow, PyTorch, and OpenCV to build scalable models that detect and classify mammals with high accuracy. A key focus of our work is estimating depth and localizing mammals within these images, allowing researchers to analyze their position relative to their habitat. By integrating AI into our workflow, we’re reducing the need for manual processing and improving detection across large datasets. These advancements enable more precise population density analysis and provide deeper insights into wildlife distribution.
-
-                      Beyond image recognition, we focus on designing robust data processing workflows that address the unique challenges of large-scale ecological datasets. Automating these processes not only saves time but also ensures more consistent and reliable wildlife monitoring, ultimately supporting conservation efforts through data-driven insights.
+                      Our system improves detection accuracy by 20-30% compared to traditional methods, allowing researchers to extract precise positional data from images captured across 50+ monitoring sites nationwide. Automating these processes has resulted in a 40% reduction in manual labor, ensuring more consistent and reliable wildlife monitoring while accelerating data-driven conservation efforts.
                     </p>
                   </div>
                 </div>
@@ -98,12 +97,15 @@ export default function Home() {
               >
                 {/* Experience Card */}
                 <div className="experience-card group left-[50%] top-[50%] transform -translate-x-[-18%] -translate-y-[10%] bg-white text-black rounded-lg shadow-lg p-5 w-[350px] h-[140px] flex flex-col justify-center transition-all duration-500 ease-in-out hover:h-[500px]">
-                  <h2 className="text-xl font-bold">Machine Learning Engineer - Dept. of NC State University</h2>
+                  <h2 className="text-xl font-bold">Machine Learning Engineer - Dept. of MAE, NC State University</h2>
                   <p className="text-gray-600 text-sm">Feb 2024 - August 2024</p>
                   <div className="details opacity-0 max-h-0 overflow-y-auto transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:max-h-[400px] mt-4">
                     <p className="text-gray-500 text-sm">
-                      Previously, I worked as a Machine Learning Engineer in the Mechanical and Aerospace Engineering Department at NC State University, where I focused on developing machine learning models for predicting thermal conductivity profiles. I utilized MATLAB’s API Engine with Python to generate over 30,000 data points, significantly streamlining the data simulation process. By implementing machine learning models using Regression algorithms and ensemble learning, I improved predictive accuracy while optimizing computational efficiency. These improvements helped reduce processing time and made thermal modeling more scalable and precise.
-                      Beyond model development, I worked on refining data processing workflows to ensure seamless integration with existing research tools, enabling a more automated and efficient approach to material behavior analysis.
+                      I developed machine learning models to predict thermal conductivity profiles with improved accuracy. Using MATLAB’s API Engine with Python, I generated over 30,000 data points, reducing manual processing time by 50% and enhancing model efficiency.
+
+                      To optimize predictions, I implemented Regression algorithms and ensemble learning, improving accuracy by 25% and reducing computational time by 30%. These advancements made thermal modeling more scalable and precise, enabling faster and more reliable simulations.
+
+                      Beyond model development, I refined data processing workflows, accelerating simulation speed by 40% and ensuring a more automated and efficient approach to material behavior analysis.
                     </p>
                   </div>
                 </div>
@@ -131,15 +133,12 @@ export default function Home() {
                 transition={{ duration: 1.5, ease: "easeInOut" }}
               >
                 {/* Experience Card */}
-                <div className="experience-card group left-[50%] top-[50%] transform -translate-x-[18%] -translate-y-[30%] bg-white text-black rounded-lg shadow-lg p-5 w-[350px] h-[140px] flex flex-col justify-center transition-all duration-500 ease-in-out hover:h-[500px]">
+                <div className="experience-card group left-[50%] top-[50%] transform -translate-x-[18%] -translate-y-[30%] bg-white text-black rounded-lg shadow-lg p-5 w-[350px] h-[140px] flex flex-col justify-center transition-all duration-500 ease-in-out hover:h-[260px]">
                   <h2 className="text-xl font-bold">Software Engineering Intern - CaringHumans</h2>
                   <p className="text-gray-600 text-sm">Jan 2023 - May 2023</p>
-                  <div className="details opacity-0 max-h-0 overflow-y-auto transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:max-h-[400px] mt-4">
+                  <div className="details opacity-0 max-h-0 overflow-y-auto transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:max-h-[200px] mt-4">
                     <p className="text-gray-500 text-sm">
-                      As a Software Engineering Intern at CaringHumans, I worked on developing and optimizing a platform that connects NDIS participants with verified support workers across Australia. My primary focus was enhancing the user experience through frontend development while integrating API-driven functionalities to support dynamic interactions.
-                      On the frontend, I worked extensively with HTML5, CSS3, and JavaScript frameworks to implement responsive design principles, ensuring accessibility across mobile, tablet, and desktop devices. I optimized page layouts, improved interactive elements, and enhanced UI consistency to provide a seamless experience for users.
-                      In addition, I contributed to RESTful API development, allowing for real-time caregiver profile viewing, booking management, and secure user authentication. By working closely with backend engineers, I helped ensure seamless data flow between the frontend and backend, resulting in a more efficient and scalable platform.
-                    </p>
+                      I worked on improving the platform frontend and integrating API-driven features. I implemented responsive design using HTML5, CSS3, and JavaScript frameworks and contributed to RESTful API development for real-time profile booking management.                    </p>
                   </div>
                 </div>
               </motion.div>
@@ -228,7 +227,7 @@ export default function Home() {
         <div className="w-full md:w-1/2 text-center md:text-left md:pl-10">
           <h1 className="text-5xl font-extrabold text-black">Education</h1>
           <p className="text-xl mt-4 text-black">
-            I’m pursuing a Master of Computer Science at North Carolina State University, where I’ve been diving deep into Data Analytics, Data Science, Machine Learning, and Software Engineering. My undergraduate studies at Pandit Deendayal Energy University in Information and Communication Technology Engineering laid a strong foundation in Data Structures, Database Management Systems, and Operating Systems.
+            I’m pursuing a Master of Computer Science at North Carolina State University, where I’ve been diving deep into Data Analytics, Data Science, Machine Learning, and Software Engineering. My undergraduate studies at Pandit Deendayal Energy University in Information and Communication Technology Engineering laid a strong foundation in Data Structures, Database Management Systems, and Internet of Things.
           </p>
         </div>
       </motion.section>
@@ -245,17 +244,13 @@ export default function Home() {
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h1 className="text-5xl font-extrabold text-black">Beyond Code</h1>
           <p className="text-xl mt-4 text-black">
-            I’m a 23-year-old embracing both the struggles and successes on my journey through the world of data science.
-          </p>
-          <p className="text-xl mt-4 text-black">
-            Tech is a big part of my life, but beyond coding, I find joy in many different things. I am a part-time event manager at our university's Student Union and have managed over 100 events, making sure everything runs smoothly.
-          </p>
-          <p className="text-xl mt-4 text-black">
-            I like photography and enjoy learning about filmmaking, with <span className="font-semibold text-white">Mike Flanagan</span> being my recent favorite director.
-          </p>
-          <p className="text-xl mt-4 text-black">
-            Cooking is another passion—I love trying new recipes and finding creative ways to meet my protein goals as a vegetarian. I also enjoy reading poetry and discovering new stories. Whether it’s planning an event, capturing a moment, or experimenting in the kitchen, I love exploring creativity in different ways.
-          </p>
+            <p>I’m a 23-year-old embracing both the struggles and successes on my journey through the world of data science.</p>
+
+            <p>Tech is a big part of my life, but beyond coding, I find joy in many different things. I work as a part-time event manager at my university’s Student Union, where I’ve managed over 100 events, handling everything from logistics and coordinating AV Tech to problem-solving on the fly.
+            </p>
+            I have a passion for photography and filmmaking, I am loving the work of director Mike Flanagan currently.
+            I like cooking and reading poems. Lately, I’ve been on a quest to incorporate more protein into my diet as a vegetarian. 
+            </p>
         </div>
 
         {/* Image/Video Section */}
